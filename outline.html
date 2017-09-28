@@ -1,0 +1,43 @@
+<html>
+<head>
+  <script src="jquery.js"></script>
+  <script>
+  $(function(){
+    $("content").load("index.html");
+  });
+  </script>
+</head>
+<body>
+<div id='parent'>
+    <div id='links'>
+      <center>
+      <table>
+      <tr><td> <a href="index.html"> Paper Examples </a> </td> <td> </td> <td> </td> </td> <td> </td> </td> <td> </td><td> <a href="others.html"> Gallery <a></td></tr>
+      </table>
+    </center>
+    </div>
+    <div  id='content'>content</div>
+    </div>​
+
+<style>
+body,html{
+    height:100%;
+}
+#parent{
+    height:100%;
+    width:100%;
+}
+#links{
+    border:1px solid black;
+    horizontal-align:top;
+    height:5%;
+    width:100%;
+}
+#content{
+    horizontal-align:bottom;
+    height:75%;
+    width:100%;
+}
+​</style>
+</body>
+</html>
